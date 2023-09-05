@@ -1,0 +1,27 @@
+/* responsive for medium device */
+@media screen and (min-width:425px) and (max-width:768px) {
+    .nav-container{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .nav-list{
+        margin: 20px 0px;
+    }
+    
+}
+/* responsive for mobile */
+@media screen and (max-width:425px) {
+
+    .nav-container{
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    .nav-list{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-icon{
+        width: 100%;
+        flex-direction: column;
+    } 
+}

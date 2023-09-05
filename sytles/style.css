@@ -6,3 +6,59 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+/* common style */
+
+.common-text{
+   color: #FF42A5;
+}
+/* nav bar design */
+nav{
+    margin: auto;
+}
+.nav-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-icon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+} 
+.nav-icon img{
+    object-fit: cover;
+    width: 80px;
+    height: 40px;
+    
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-list ul li{
+    list-style: none;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.nav-title{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.icon{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(11, 2, 35, 0.10);
+}
