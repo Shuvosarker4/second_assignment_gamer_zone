@@ -39,6 +39,7 @@ body{
 /* nav bar design */
 nav{
     margin: auto;
+    position: relative;
 }
 .nav-container{
     background-color: #fff;
@@ -85,6 +86,11 @@ nav{
     border-radius: 8px;
     border: 0;
     background: rgba(11, 2, 35, 0.10);
+    /* position: absolute; */
+}
+#youtube{
+    position: absolute;
+    right: 245px;
 }
 /* goat section design */
 .main{
