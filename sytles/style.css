@@ -91,7 +91,7 @@ nav{
 }
 .goat-text{
     width: 50%;
-    background-image: url("/images/Group14.png");
+    background-image: url('../images/Group14.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
