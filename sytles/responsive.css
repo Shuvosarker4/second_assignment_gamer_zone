@@ -7,6 +7,12 @@
     .nav-list{
         margin: 20px 0px;
     }
+    .goat{
+        margin-top: 40px;
+    }
+    .goat-para{
+        padding-left: 56px;
+    }
     
 }
 /* responsive for mobile */
@@ -24,4 +30,21 @@
         width: 100%;
         flex-direction: column;
     } 
+    .goat-text{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .goat-image{
+        width: 100%;
+       text-align: center;
+    
+    }
+    .goat{
+       flex-direction: column;
+       margin-top: 200px;
+    }
+    .goat-image img{
+        width: 90%;
+        margin-top: 10px;
+    }
 }
