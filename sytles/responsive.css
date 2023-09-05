@@ -32,6 +32,14 @@
         right: 100px;
         top: -135px;
     }
+    .list{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .list-two{
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+        margin: 0px 20px;
+    }
     
 }
 /* responsive for mobile */
@@ -76,7 +84,8 @@
     }
     .play-instant{
        flex-direction: column;
-       margin: 20px auto;
+       /* margin: 10px auto; */
+
     }
     .play-text{
         width: 100%;
@@ -94,5 +103,27 @@
         height: 170.083px;
         right: 133px;
         top: -92px;
+    }
+    .game-list{
+        width: 100vw;
+    }
+    .list{
+        margin-top: 0;
+        grid-template-columns: repeat(3,1fr);
+        /* grid-area: auto; */
+        /* row-gap: 10px; */
+    }
+    .single-list{
+        width: 120px;
+        height: 30px;
+        padding: 5px;
+    }
+    .single-list img{
+        width: 35px;
+        height: 35px;
+    }
+    .game-name{
+        font-size: 0.8rem;
+        font-weight: 400;
     }
 }
