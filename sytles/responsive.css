@@ -19,6 +19,19 @@
     .online-game-para{
         margin-left: 25px;
     }
+    .play-image{
+        margin-top: 30px;
+    }
+    .back-image{
+        width: 304.833px;
+        height: 320px;
+    }
+    .font-image{
+        width: 133.5px;
+        height: 180.083px;
+        right: 100px;
+        top: -135px;
+    }
     
 }
 /* responsive for mobile */
@@ -60,5 +73,26 @@
     }
     .game{
         margin-top: 230px;
+    }
+    .play-instant{
+       flex-direction: column;
+       margin: 20px auto;
+    }
+    .play-text{
+        width: 100%;
+    }
+    .play-image{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .back-image{
+        width: 284.833px;
+        height: 300px;
+    }
+    .font-image{
+        width: 123.5px;
+        height: 170.083px;
+        right: 133px;
+        top: -92px;
     }
 }
