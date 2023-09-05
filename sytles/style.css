@@ -11,13 +11,19 @@ body{
 .common-text{
    color: #FF42A5;
 }
+.common-word{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .common-para{
     color: #534C64;
     /* text-align: center; */
     font-size: 1.3rem;
     font-weight: 400;
     text-transform: lowercase;
-    padding: 5px;
+    padding: 6px;
 }
 /* nav bar design */
 nav{
@@ -144,4 +150,40 @@ nav{
 .btn{
     text-align: center;
     padding: 20px;
+}
+/* online game section */
+.game{
+
+}
+.game-head{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.game-text{
+    text-align: center;
+    margin-top: 30px;
+}
+.online-game{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    margin:30px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 5px; */
+}
+.game-card{
+    margin: 0 auto;
+    width: 320px;
+    height: 390px;
+    border-radius: 16px;
+    /* background: url('/images/Rectangle4.png'), lightgray 50% / cover no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.online-game-para{
+    padding-top: 15px;
+    margin-left: 15px;
 }
